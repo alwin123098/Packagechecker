@@ -1,0 +1,8 @@
+{
+  "failOn": "high",
+  "exclude": ["test-fixtures/"],
+  "allowedPackages": [],
+  "blockedPackages": [],
+  "allowedCommands": [],
+  "blockedCommands": ["rm -rf /", "curl | sh", "wget | sh"]
+}
