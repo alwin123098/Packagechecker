@@ -1,0 +1,25 @@
+{
+  "name": "agent-firewall",
+  "version": "0.1.0",
+  "description": "Local dependency and agent-command firewall for software projects.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "agent-firewall": "./bin/agent-firewall.js",
+    "agfw": "./bin/agent-firewall.js"
+  },
+  "scripts": {
+    "scan": "node ./bin/agent-firewall.js scan .",
+    "test": "node ./test-fixtures/run-tests.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "security",
+    "supply-chain",
+    "dependencies",
+    "firewall",
+    "ci"
+  ]
+}
